@@ -6,7 +6,7 @@
 * Cyberbullying is bullying that takes place over digital devices like cell phones, computers, and tablets. Cyberbullying can occur through SMS, Text, and apps, or online in social media, forums, or gaming where people can view, participate in, or share content.
 * Cyberbullying includes sending, posting, or sharing negative, harmful, false, or mean content about someone else.
 
-![Lyft Annual Completed Rides](https://github.com/ajkim19/TNCs_and_DUI_Deaths/blob/master/Resources/Lyft%20Annual%20Complete%20Rides.png)
+![Cyberbullying Reasearch Graph](https://raw.githubusercontent.com/ajkim19/Cyberbullying_Sentiment_Analysis/master/misc/Cyberbullying_Victimization_all_studies_2019.jpg)
 
 ### What are its effects?
 * Kids who are bullied can experience negative physical, school, and mental health issues. Kids who are bullied are more likely to experience:
