@@ -55,7 +55,7 @@ The key component of the website is the "Find Bullies" button. By clicking on th
 ![social_media_site_postmarking](https://raw.githubusercontent.com/ajkim19/Cyberbullying_Sentiment_Analysis/master/Resources/social_media_site_postmarking.PNG)
 
 The concept is to show that there is a possibility an application could analyze social media sites, such as twitter or facebook, to identify and potentially protect individuals from cyberbullying.
-
+The application that we created is not perfect because of the complexities of the English language, which include the evolution of connotations and slang, but for it works well in identifying straightforward insults and vugarity.
 
 
 
