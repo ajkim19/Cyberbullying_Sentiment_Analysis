@@ -18,7 +18,8 @@
 
 
 ## Objective
-* Our project was to use natural language processing to create an algorithm that would be able to recognize if a line of text was considered cyberbullying.
+* Our project was to create an app that would identify cyberbullying on a social media website.
+* Implement the use of natural language processing to create an algorithm that would be able to recognize if a line of text was considered cyberbullying.
 * In addition, we wanted to create an application that would be able to identify cyberbullying from newly created text.
 * To build our model and our sample social media site, we used HTML, CSS, Bootstrap, JavaScript, JQuery, Python, Flask, Scikit-Learn, Beautiful Soup, Natural Language Toolkit, PySpark and various other libraries.
 
@@ -26,17 +27,36 @@
 ## Data
 Our data was obtained from Kaggle (https://www.kaggle.com/dataturks/dataset-for-detection-of-cybertrolls)
 
-![kaggle](insert_image)
+![kaggle](https://raw.githubusercontent.com/ajkim19/Cyberbullying_Sentiment_Analysis/master/Resources/kaggle-logo-gray-300.png)
 
 The json dataset was turned into a Pandas dataframe 
 
-![original_df](insert_image)
+![original_df](https://raw.githubusercontent.com/ajkim19/Cyberbullying_Sentiment_Analysis/master/Resources/original_df.PNG)
 
 Two columns were removed so that only the columns of the text and the rating remained
 
-![cleaned_df](insert_image)
+![cleaned_df](https://raw.githubusercontent.com/ajkim19/Cyberbullying_Sentiment_Analysis/master/Resources/cleaned_df.PNG)
 
-Another dataset imported. This dataset contained tweets from and 
+Another dataset was imported and later merged with the previous dataset. This dataset contained tweets from anonymous president and an anonymous politician. The tweets were then manually classified as cyberbullying or not cyberbullying using ones and zeros.
+
+Variations of machine learning models were tested, including word count, term frequency-inverse document frequency, and naive bayes. Eventually, we settled on the support vector machine n-grams model.
+
+![final_model](https://raw.githubusercontent.com/ajkim19/Cyberbullying_Sentiment_Analysis/master/Resources/final_model.PNG)
+
+
+## The Cyberbullying Application
+
+We pseudo social media site was created. At the bottom of the website, there is an input window where comments could be added.
+
+![social_media_site](https://raw.githubusercontent.com/ajkim19/Cyberbullying_Sentiment_Analysis/master/Resources/social_media_site.PNG)
+
+The key component of the website is the "Find Bullies" button. By clicking on the button, comments identified as cyberbullying would be marked/highlighted in red.
+
+![social_media_site_postmarking](https://raw.githubusercontent.com/ajkim19/Cyberbullying_Sentiment_Analysis/master/Resources/social_media_site_postmarking.PNG)
+
+The concept is to show that there is a possibility an application could analyze social media sites, such as twitter or facebook, to identify and potentially protect individuals from cyberbullying.
+
+
 
 
 
