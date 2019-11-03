@@ -31,17 +31,13 @@ Our data was obtained from Kaggle (https://www.kaggle.com/dataturks/dataset-for-
 
 The json dataset was turned into a Pandas dataframe 
 
-![original_df](https://raw.githubusercontent.com/ajkim19/Cyberbullying_Sentiment_Analysis/master/Resources/original_df.PNG)
-
 Two columns were removed so that only the columns of the text and the rating remained
-
-![cleaned_df](https://raw.githubusercontent.com/ajkim19/Cyberbullying_Sentiment_Analysis/master/Resources/cleaned_df.PNG)
 
 Another dataset was imported and later merged with the previous dataset. This dataset contained tweets from anonymous president and an anonymous politician. The tweets were then manually classified as cyberbullying or not cyberbullying using ones and zeros.
 
-Variations of machine learning models were tested, including word count, term frequency-inverse document frequency, and naive bayes. Eventually, we settled on the support vector machine n-grams model.
+Variations of machine learning models were tested, including word count, term frequency-inverse document frequency, and naive bayes. Eventually, we settled on the support vector machine using n-gram vectorization.
 
-![final_model](https://raw.githubusercontent.com/ajkim19/Cyberbullying_Sentiment_Analysis/master/Resources/final_model.PNG)
+![jupyter_notebook](https://github.com/ajkim19/Cyberbullying_Sentiment_Analysis/blob/master/NLP%20Machine%20Learning%20Project%20(final).ipynb)
 
 
 ## The Cyberbullying Application
