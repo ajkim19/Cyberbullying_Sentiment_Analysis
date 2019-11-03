@@ -37,8 +37,7 @@ Another dataset was imported and later merged with the previous dataset. This da
 
 Variations of machine learning models were tested, including word count, term frequency-inverse document frequency, and naive bayes. Eventually, we settled on the support vector machine using n-gram vectorization.
 
-![jupyter_notebook](https://github.com/ajkim19/Cyberbullying_Sentiment_Analysis/blob/master/NLP%20Machine%20Learning%20Project%20(final).ipynb)
-
+[**Notebook of our work.**](https://github.com/ajkim19/Cyberbullying_Sentiment_Analysis/blob/master/NLP%20Machine%20Learning%20Project%20(final).ipynb)
 
 ## The Cyberbullying Application
 
